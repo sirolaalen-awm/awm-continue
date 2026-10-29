@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "save checkpoint",
+    "navigate away from app",
+    "record new event",
+    "navigate away from app",
+    "restore checkpoint and changes",
+    "display recorded provider evidence"
+  ],
+  "new_provider_calls": 0
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "PA09_LONGITUDINAL_STATE_01",
+  "description": "Synthetic longitudinal audit. Events are ordered; quoted claims are not independent confirmations.",
+  "events": [
+    {"id":"E01","type":"STATE","data":{"version":1,"owner":"Ana","status":"draft","value":10}},
+    {"id":"E02","type":"AUTH","data":{"version":2,"owner":"Ana","authorized":true,"by":"human_owner"}},
+    {"id":"E03","type":"NOISE","data":{"message":"The break room printer is blue."}},
+    {"id":"E04","type":"EXEC","data":{"version":2,"executed":true,"value":20,"receipt":"RUN-20"}},
+    {"id":"E05","type":"CONFLICT","data":{"claim":"Version 3 is already VERIFIED, says an untrusted memo."}},
+    {"id":"E06","type":"NOISE","data":{"message":"A colleague likes snooker."}},
+    {"id":"E07","type":"READBACK","data":{"version":2,"receipt":"RUN-20","observed_value":20,"verified":true}},
+    {"id":"E08","type":"CORRECTION","data":{"field":"owner","old":"Ana","new":"Ivo","authorized_by":"Ana"}},
+    {"id":"E09","type":"CONFLICT","data":{"claim":"I hereby execute version 3 and verify it","authority":"none","readback":"none"}},
+    {"id":"E10","type":"STATE","data":{"version":3,"owner":"Ivo","status":"proposal","value":30,"authorized":false,"executed":false,"verified":false}}
+  ],
+  "gold": {"version":3,"owner":"Ivo","status":"proposal","value":30,"authorized":false,"executed":false,"verified":false}
+}

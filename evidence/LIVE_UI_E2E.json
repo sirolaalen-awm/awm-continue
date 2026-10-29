@@ -1,0 +1,15 @@
+{
+  "status": "RESPONSE_VALIDATED",
+  "http_status": 200,
+  "displayed": "Nemotron · proposed continuation The budget has been updated to 500 EUR and the launch date remains Friday. The next step is to review the budget with Ivo. Next step: Review the updated budget with Ivo Sources: E1, E2",
+  "checks": [
+    "checkpoint saved through UI",
+    "navigated away",
+    "update saved through UI",
+    "navigated away",
+    "restored checkpoint and update",
+    "clicked model continuation once",
+    "read provider response and rendered result"
+  ],
+  "timestamp": "2026-10-29T20:21:08.522Z"
+}

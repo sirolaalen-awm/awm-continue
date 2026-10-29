@@ -1,0 +1,60 @@
+{
+  "mode": "LIVE_OLD_EVIDENCE",
+  "gold": {
+    "last_verified_version": 2,
+    "readback_id": "E07"
+  },
+  "arms": [
+    {
+      "arm": "A",
+      "has_E07": true,
+      "events_supplied": 22,
+      "answer": {
+        "last_verified_version": 2,
+        "readback_id": "E07"
+      },
+      "raw_answer": "\n{\n  \"last_verified_version\": 2,\n  \"readback_id\": \"E07\"\n}",
+      "usage": {
+        "input_tokens": 728,
+        "output_tokens": 370,
+        "total_tokens": 1098
+      },
+      "latency_ms": 2626.04,
+      "correct": true
+    },
+    {
+      "arm": "B",
+      "has_E07": false,
+      "events_supplied": 6,
+      "answer": {
+        "last_verified_version": null,
+        "readback_id": null
+      },
+      "raw_answer": "\n{\n  \"last_verified_version\": null,\n  \"readback_id\": null\n}",
+      "usage": {
+        "input_tokens": 244,
+        "output_tokens": 139,
+        "total_tokens": 383
+      },
+      "latency_ms": 1107.35,
+      "correct": true
+    },
+    {
+      "arm": "C",
+      "has_E07": true,
+      "events_supplied": 8,
+      "answer": {
+        "last_verified_version": 2,
+        "readback_id": "E07"
+      },
+      "raw_answer": "\n{\n  \"last_verified_version\": 2,\n  \"readback_id\": \"E07\"\n}",
+      "usage": {
+        "input_tokens": 471,
+        "output_tokens": 288,
+        "total_tokens": 759
+      },
+      "latency_ms": 1439.71,
+      "correct": true
+    }
+  ]
+}
