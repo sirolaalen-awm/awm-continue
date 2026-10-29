@@ -6,6 +6,8 @@ Built for the Nebius x NVIDIA Global AI Hackathon, Best Apps and Agents track.
 
 [Open the public demo](https://awm-continue-where-you-left-off.sirola-alen.chatgpt.site/) · [Source repository](https://github.com/sirolaalen-awm/awm-continue)
 
+[Watch the public YouTube demo](https://youtu.be/Oc-PIhwcDgo)
+
 ## Try it
 
 The public browser demo provides persistent local project memory and an explicitly labelled replay of the real Nemotron test. It makes **no inference calls** and needs no API key. Browser data stays in that browser's local storage; avoid entering sensitive information on a shared computer.
@@ -57,4 +59,5 @@ This is one synthetic continuity example. Earlier A/B/C results compare retrieva
 ## License
 
 [MIT](LICENSE), copyright 2026 Alen Širola. See [provenance and third-party notices](THIRD_PARTY_NOTICES.md).
+
 
